@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description> Set the Requested for to the currently logged in user for new records. Users can change the field value</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+
+    if(g_form.isNewRecord()){
+        g_form.setValue('u_requested_for',g_user.userID);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-05 08:06:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36f932cd0f77b2008ed988cce1050ec5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
+        <sys_update_name>sys_script_client_36f932cd0f77b2008ed988cce1050ec5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-05 08:06:07</sys_updated_on>
+        <table>x_134308_needlt_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

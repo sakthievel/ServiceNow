@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Practice debugging techniques in ServiceNow</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Practice Debugging</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	try{
+		var x = 7;
+		jslogger("This message is from jslog().");
+		jslog("The value of x = " + x);
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+
+
+ 		g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
+	}
+	catch(err){
+		jslog('A JavaScript runtime error occurred: ' + err.message);
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-05 08:27:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e9e7a8d0f77b2008ed988cce1050e2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Practice Debugging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
+        <sys_update_name>sys_script_client_4e9e7a8d0f77b2008ed988cce1050e2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-05 09:01:32</sys_updated_on>
+        <table>x_134308_needlt_needit</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
