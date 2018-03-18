@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_grid_canvas" unload_date="2017-09-12 02:38:45">
+<record_update node_type="sys_grid_canvas" unload_date="2018-03-18 03:56:52">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
         <legacy_page display_value="PA Incident Overview">815b3831d7201100b96d45a3ce6103c2</legacy_page>
         <name>PA Incident Overview</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>aa1fd6410f77b2008ed988cce1050e0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PA Incident Overview</sys_name>
         <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
         <sys_update_name>sys_grid_canvas_aa1fd6410f77b2008ed988cce1050e0d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -27,13 +25,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
                 <sys_id>321fdec10f77b2008ed988cce1050eb4</sys_id>
                 <sys_mod_count>1</sys_mod_count>
                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_321fdec10f77b2008ed988cce1050eb4</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>
@@ -61,13 +57,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
                                 <sys_id>321fdec10f77b2008ed988cce1050eb4</sys_id>
                                 <sys_mod_count>1</sys_mod_count>
                                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_321fdec10f77b2008ed988cce1050eb4</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -167,13 +161,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
                                 <sys_id>3e1fdec10f77b2008ed988cce1050eb0</sys_id>
                                 <sys_mod_count>0</sys_mod_count>
                                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_3e1fdec10f77b2008ed988cce1050eb0</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -273,13 +265,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
                                 <sys_id>7a1fdec10f77b2008ed988cce1050eae</sys_id>
                                 <sys_mod_count>0</sys_mod_count>
                                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_7a1fdec10f77b2008ed988cce1050eae</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -379,13 +369,11 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>admin</sys_created_by>
                                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
                                 <sys_id>b61fdec10f77b2008ed988cce1050eb2</sys_id>
                                 <sys_mod_count>1</sys_mod_count>
                                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_b61fdec10f77b2008ed988cce1050eb2</sys_update_name>
                                 <sys_updated_by>admin</sys_updated_by>
@@ -473,13 +461,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
                 <sys_id>3e1fdec10f77b2008ed988cce1050eb0</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_3e1fdec10f77b2008ed988cce1050eb0</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>
@@ -495,13 +481,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
                 <sys_id>7a1fdec10f77b2008ed988cce1050eae</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_7a1fdec10f77b2008ed988cce1050eae</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>
@@ -517,13 +501,11 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>admin</sys_created_by>
                 <sys_created_on>2017-07-05 06:07:12</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
                 <sys_id>b61fdec10f77b2008ed988cce1050eb2</sys_id>
                 <sys_mod_count>1</sys_mod_count>
                 <sys_name>aa1fd6410f77b2008ed988cce1050e0d</sys_name>
                 <sys_package display_value="Needlt" source="x_134308_needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="Needlt">6c1a2dfc0f3f72008ed988cce1050e01</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_b61fdec10f77b2008ed988cce1050eb2</sys_update_name>
                 <sys_updated_by>admin</sys_updated_by>
